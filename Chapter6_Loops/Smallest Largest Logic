@@ -1,0 +1,13 @@
+double number;
+    double largest = 0.0;
+    double smallest = 0.0;
+    final double EPSILON = 1E-14;
+    while (input.hasNextDouble()) {
+      number = input.nextDouble();
+      if (number > largest || Math.abs(number - largest) <= EPSILON) {
+        largest = number;
+      } else if (number < smallest || Math.abs(number - smallest) <= EPSILON) {
+        smallest = number;
+      } else {
+        //
+      }

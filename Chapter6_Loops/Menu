@@ -1,0 +1,26 @@
+//    int option = 0;
+//    while (option >= 0 && option < 5) {
+//      option = Integer.parseInt(JOptionPane.showInputDialog("Input the number of the option you want:\n" +
+//              "1. Determine the smallest and the largest number of sequence\n" +
+//              "2. Determine the odd and even numbers of sequence\n" +
+//              "3. Determine the cumulative total of sequence\n" +
+//              "4. Determine all adjacent duplicates\n" +
+//              "5. Exit"));
+//      switch (option) {
+//        case 1:
+//          sequence.categorizeLevel();
+//          break;
+//        case 2:
+//          sequence.categorizeType();
+//          break;
+//        case 3:
+//          //
+//          break;
+//        case 4:
+//          //
+//          break;
+//        default:
+//          System.out.println("Option not listed");
+//          break;
+//      }
+//    }
